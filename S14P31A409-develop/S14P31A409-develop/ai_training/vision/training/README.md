@@ -86,7 +86,7 @@ Orin Nano에서 실행할 trtexec 명령어를 기록합니다.
 
 ### 셀8 - .pt 모델 추론 테스트
 
-`C:\Users\SSAFY\Desktop\03\models\test\` 하위의 이미지 전체에 대해 best.pt로 추론을 수행합니다. bbox와 confidence를 시각화하여 `pt_test/` 폴더에 저장합니다.
+`./models/test/` 하위의 이미지 전체에 대해 best.pt로 추론을 수행합니다. bbox와 confidence를 시각화하여 `pt_test/` 폴더에 저장합니다.
 
 **수정 필요 항목**
 
@@ -98,7 +98,7 @@ Orin Nano에서 실행할 trtexec 명령어를 기록합니다.
 
 ### 셀9 - .onnx 모델 추론 테스트
 
-`C:\Users\SSAFY\Desktop\03\models\test\` 하위의 이미지 전체에 대해 best.onnx로 추론을 수행합니다. NMS 적용 후 bbox와 confidence를 시각화하여 `onnx_test/` 폴더에 저장합니다.
+`./models/test/` 하위의 이미지 전체에 대해 best.onnx로 추론을 수행합니다. NMS 적용 후 bbox와 confidence를 시각화하여 `onnx_test/` 폴더에 저장합니다.
 
 **수정 필요 항목**
 
@@ -114,7 +114,7 @@ Orin Nano에서 실행할 trtexec 명령어를 기록합니다.
 ## 결과물 저장 경로
 
 ```
-C:\Users\SSAFY\Desktop\03\models\{run_name}\
+./models/{run_name}/
 ├── weights\
 │   ├── best.pt
 │   ├── last.pt

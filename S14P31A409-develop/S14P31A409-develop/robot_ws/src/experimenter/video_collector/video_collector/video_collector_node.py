@@ -1,3 +1,4 @@
+import os
 import cv2
 import depthai as dai
 import rclpy
@@ -14,7 +15,7 @@ class VideoCollectorNode(Node):
         # =========================
 
         self.declare_parameter('robot_id',          'spot_01')
-        self.declare_parameter('output_root',        '/home/jetson/data')
+        self.declare_parameter('output_root',        os.path.expanduser('~/data'))
         self.declare_parameter('sensor_subdir',      'video')
         self.declare_parameter('output_filename',    '')
         self.declare_parameter('session_index',      0)

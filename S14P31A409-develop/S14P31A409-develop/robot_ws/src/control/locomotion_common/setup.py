@@ -16,8 +16,8 @@ setup(
     ],
     install_requires=["setuptools"],
     zip_safe=True,
-    maintainer="jetson",
-    maintainer_email="jetson@todo.todo",
+    maintainer="SPOT Get IT contributors",
+    maintainer_email="maintainer@example.com",
     description="Shared locomotion reference generators and kinematics",
     license="TODO",
 )

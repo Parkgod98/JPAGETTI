@@ -1,3 +1,4 @@
+import os
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
@@ -13,7 +14,7 @@ class CameraPerceptionNode(Node):
         super().__init__('camera_perception_node')
 
         # 파라미터 선언
-        self.declare_parameter('engine_path',        '/home/jetson/models/best.engine')
+        self.declare_parameter('engine_path',        os.path.expanduser('~/models/best.engine'))
         self.declare_parameter('conf_threshold',     0.7)
         self.declare_parameter('iou_threshold',      0.45)
         self.declare_parameter('infer_size',         480)

@@ -1,7 +1,7 @@
 import os
 import ctypes
 
-LIB_PATH = '/home/ubuntu/robot_ws_311/install/robot_interfaces/lib'
+LIB_PATH = os.path.expanduser('~/robot_ws_311/install/robot_interfaces/lib')
 
 for so in [
     'librobot_interfaces__rosidl_generator_c.so',
@@ -22,7 +22,7 @@ import rclpy
 from pxr import Gf
 import omni.usd
 
-sys.path.insert(0, '/home/ubuntu/robot_ws_311/install/robot_interfaces/local/lib/python3.11/dist-packages')
+sys.path.insert(0, os.path.expanduser('~/robot_ws_311/install/robot_interfaces/local/lib/python3.11/dist-packages'))
 
 PRIM_MAP = {
     1: '/World/MapRoot/SpawnPoints/Spot_Real',

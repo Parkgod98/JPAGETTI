@@ -942,13 +942,13 @@ static QString findMapYaml()
         QDir(appDir).absoluteFilePath("../../../map_data/new_map.yaml"),
         QDir(cwd).absoluteFilePath("map_data/new_map.yaml"),
         QDir(cwd).absoluteFilePath("../map_data/new_map.yaml"),
-        QStringLiteral("/home/pi/robot_project/map_data/new_map.yaml"),
+        (QDir::homePath() + QStringLiteral("/robot_project/map_data/new_map.yaml")),
         QDir(appDir).absoluteFilePath("../map_data/map.yaml"),
         QDir(appDir).absoluteFilePath("../../map_data/map.yaml"),
         QDir(appDir).absoluteFilePath("../../../map_data/map.yaml"),
         QDir(cwd).absoluteFilePath("map_data/map.yaml"),
         QDir(cwd).absoluteFilePath("../map_data/map.yaml"),
-        QStringLiteral("/home/pi/robot_project/map_data/map.yaml")
+        (QDir::homePath() + QStringLiteral("/robot_project/map_data/map.yaml"))
     };
 
     for (const QString &path : candidates) {

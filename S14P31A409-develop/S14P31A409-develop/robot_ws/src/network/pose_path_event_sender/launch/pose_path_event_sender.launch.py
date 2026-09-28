@@ -6,7 +6,7 @@ pose_path_event_sender.launch.py
   ros2 launch pose_path_event_sender pose_path_event_sender.launch.py
 
   # RPi5 IP 변경
-  ros2 launch pose_path_event_sender pose_path_event_sender.launch.py rpi5_ip:=192.168.0.100
+  ros2 launch pose_path_event_sender pose_path_event_sender.launch.py rpi5_ip:=127.0.0.1
 """
 
 from launch import LaunchDescription
@@ -20,7 +20,7 @@ def generate_launch_description():
 
     declare_rpi5_ip = DeclareLaunchArgument(
         "rpi5_ip",
-        default_value="192.168.0.13",
+        default_value="127.0.0.1",
         description="BridgeDaemon가 실행 중인 RPi5 IP",
     )
 

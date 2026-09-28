@@ -11,12 +11,12 @@ from pathlib import Path
 
 def find_next_session_index(output_root: str) -> str:
     """
-    /home/jetson/data 아래의 숫자 폴더를 확인해서 다음 실험 번호를 반환한다.
+    $HOME/data 아래의 숫자 폴더를 확인해서 다음 실험 번호를 반환한다.
 
     예:
       기존:
-        /home/jetson/data/1
-        /home/jetson/data/2
+        $HOME/data/1
+        $HOME/data/2
 
       반환:
         "3"
@@ -101,14 +101,14 @@ def generate_launch_description():
 
     output_root_arg = DeclareLaunchArgument(
         "output_root",
-        default_value="/home/jetson/data",
+        default_value=os.path.expanduser('~/data'),
         description="센서 데이터 저장 root 경로",
     )
 
     session_index_arg = DeclareLaunchArgument(
         "session_index",
         default_value="0",
-        description="실험 번호. 0이면 /home/jetson/data 아래 다음 번호를 자동 선택",
+        description="실험 번호. 0이면 $HOME/data 아래 다음 번호를 자동 선택",
     )
 
     return LaunchDescription([

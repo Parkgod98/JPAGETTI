@@ -9,7 +9,8 @@ unset OLD_PYTHONPATH
 
 export ROS_DISTRO=humble
 export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
-export LD_LIBRARY_PATH=/home/ubuntu/isaac-sim/exts/isaacsim.ros2.bridge/humble/lib
+ISAAC_SIM_ROOT="${ISAAC_SIM_ROOT:-$HOME/isaac-sim}"
+export LD_LIBRARY_PATH="$ISAAC_SIM_ROOT/exts/isaacsim.ros2.bridge/humble/lib"
 
-cd /home/ubuntu/isaac-sim
+cd "$ISAAC_SIM_ROOT" || exit 1
 ./isaac-sim.sh

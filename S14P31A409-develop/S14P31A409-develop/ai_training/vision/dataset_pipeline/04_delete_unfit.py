@@ -2,10 +2,10 @@ from pathlib import Path
 
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
-OUTPUT_ROOT = Path(r"C:\Users\SSAFY\Desktop\03\datasets\00_result")
+OUTPUT_ROOT = Path(r"./datasets/00_result")
 
 datasets = {
-    "coco_person":           Path(r"C:\Users\SSAFY\Desktop\03\datasets\coco_person"),
+    "coco_person":           Path(r"./datasets/coco_person"),
 }
 
 DRY_RUN = False # True: 출력만 / False: 실제 삭제

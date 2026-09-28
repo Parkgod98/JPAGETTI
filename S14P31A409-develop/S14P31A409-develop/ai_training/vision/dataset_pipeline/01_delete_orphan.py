@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 datasets = [
-    r"C:\Users\SSAFY\Desktop\03\datasets\coco_person",
+    r"./datasets/coco_person",
 ]
 
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}

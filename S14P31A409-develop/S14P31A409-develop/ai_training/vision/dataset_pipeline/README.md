@@ -13,8 +13,8 @@
 
 | 변수 | 기본값 | 설명 |
 |------|--------|------|
-| `BASE_DIR` / `datasets` | `C:\Users\SSAFY\Desktop\03\datasets` | 데이터셋 루트 디렉토리 |
-| `OUTPUT_ROOT` | `C:\Users\SSAFY\Desktop\03\datasets\00_result` | 시각화 결과 저장 경로 |
+| `BASE_DIR` / `datasets` | `./datasets` | 데이터셋 루트 디렉토리 |
+| `OUTPUT_ROOT` | `./datasets/00_result` | 시각화 결과 저장 경로 |
 
 ### 설치
 

@@ -36,7 +36,7 @@
 ## 열어보는 방법
 
 ```bash
-cd /home/pi/robot_project/bride_app_codex
+cd $HOME/robot_project/bride_app_codex
 xdg-open docs_architecture/bridge_qt_full_flow.svg
 ```
 

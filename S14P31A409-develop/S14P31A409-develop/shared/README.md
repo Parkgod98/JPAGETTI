@@ -1,18 +1,12 @@
-# shared
+# 🔗 공통 인터페이스
 
-여러 빌드 도메인이 공유하는 자원.
+[🐾 프로젝트 홈](../README.md) · [📖 Wiki](../docs/wiki/Home.md)
 
-## 하위 구성
-- `proto/` — 🔒 STM32↔Jetson 바이너리 시리얼 프로토콜
-  - `schema/` — 단일 원본 (.yaml 또는 .proto)
-  - `generate.py` — C/Python 바인딩 자동 생성
-  - `c/`, `python/` — 생성된 바인딩
-- `robot_config/` — 로봇 물리 파라미터
-  - `urdf/` — Spot Micro URDF
-  - `params.yaml` — 링크 길이, 질량 등
+---
 
-## 주의
-`shared/proto/` 수정 시 HW + 통신 + 관제 3명+ 리뷰 필수
-(Git Flow 컨벤션 참조)
+현재 이 디렉터리에는 안내 문서만 있습니다. 자동 프로토콜 생성기나 통합 URDF 폴더는 구현되어 있지 않습니다.
 
-담당: HW (robot_config/), 통신 (proto/)
+- ROS 메시지: `../robot_ws/src/interfaces/robot_interfaces/`
+- 관제 UDP 및 공유메모리: `../rpi/bridge_app/proto.h`, `shm_def.h`
+- STM32 통신 정의: `../firmware/Inc/spi_protocol.h`, `uart_jetson.h`
+- 학습 로봇 자산: `../ai_training/rl/legged_gym/resources/robots/`

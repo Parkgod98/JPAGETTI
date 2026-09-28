@@ -1,15 +1,10 @@
-# docs
+# 📚 SPOT_GET_IT 문서
 
-프로젝트 문서 전반.
+**[🏠 Wiki 홈](wiki/Home.md)** · **[🏗️ 아키텍처](wiki/Architecture.md)** · **[🚀 설치](wiki/Setup.md)** · **[⚙️ 설정](wiki/Configuration.md)** · **[🎮 실행](wiki/Operation.md)**
 
-## 하위 구성 (예정)
-- `architecture/` — 시스템 다이어그램, HAL 계층 설계
-- `hardware/` — 배선도, 전원 계산, BOM
-- `protocols/` — STM32↔Jetson 메시지 포맷, ROS2 토픽 규격
-- `conventions/` — 팀 ROS2 컨벤션 (SSoT)
-- `meeting-notes/` — 회의록
-
-## 주요 문서
-- [`GIT_FLOW_CONVENTION.md`](GIT_FLOW_CONVENTION.md) — Git Flow 운영 가이드
-
-담당: 전원 (각자 관련 문서 기여)
+| 기술 자료 | 내용 |
+| --- | --- |
+| [펌웨어 아키텍처](../firmware/docs/architecture.md) | STM32 모듈과 제어 구성 |
+| [하드웨어 설계](../hardware/docs/hardware_design.md) | 배선·하드웨어 구성 |
+| [전원 시스템](../hardware/docs/power_system.md) | 전원 설계 |
+| [트러블슈팅](wiki/Troubleshooting.md) | 실행 환경과 알려진 제한 |

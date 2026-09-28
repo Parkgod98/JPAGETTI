@@ -19,8 +19,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='todo',
-    maintainer_email='todo@todo.com',
+    maintainer="SPOT Get IT contributors",
+    maintainer_email='maintainer@example.com',
     description='/scan_3D → UDP → RPi BridgeDaemon 송신 노드',
     license='TODO',
     entry_points={

@@ -7,15 +7,16 @@
   - /perception/lidar/points_filtered
     Type: sensor_msgs/msg/PointCloud2
 출력 파일 :
-  - /home/jetson/data/{session_index}/lidar/{robot_id}_points_filtered.jsonl
+  - $HOME/data/{session_index}/lidar/{robot_id}_points_filtered.jsonl
 주요 기능 :
   - PointCloud2의 header, height, width, fields, point_step, row_step, is_dense 정보를 보존한다.
   - PointCloud2 내부 binary data를 x, y, z point 배열로 변환해 저장한다.
   - JSONL 한 줄에 LiDAR 한 프레임을 저장한다.
   - frame_index와 elapsed_sec를 함께 저장해 관제 PC에서 원래 시간 간격대로 재생할 수 있게 한다.
-  - 기본 실행 시 /home/jetson/data 아래의 숫자 폴더를 확인해 다음 번호에 저장한다.
+  - 기본 실행 시 $HOME/data 아래의 숫자 폴더를 확인해 다음 번호에 저장한다.
   - session_index 파라미터를 지정하면 특정 실험 번호 폴더에 저장할 수 있다.
 """
+import os
 
 import json
 import math
@@ -49,9 +50,9 @@ class PointCloud2JsonlRecorder(Node):
 
         # 저장 root 경로
         # 최종 저장 구조:
-        #   /home/jetson/data/1/lidar/spot_02_points_filtered.jsonl
-        #   /home/jetson/data/2/lidar/spot_02_points_filtered.jsonl
-        self.declare_parameter("output_root", "/home/jetson/data")
+        #   $HOME/data/1/lidar/spot_02_points_filtered.jsonl
+        #   $HOME/data/2/lidar/spot_02_points_filtered.jsonl
+        self.declare_parameter("output_root", os.path.expanduser('~/data'))
 
         # data/{번호} 아래에 생성할 센서별 하위 폴더 이름
         self.declare_parameter("sensor_subdir", "lidar")
@@ -61,7 +62,7 @@ class PointCloud2JsonlRecorder(Node):
         self.declare_parameter("output_filename", "")
 
         # 0이면 자동으로 다음 번호를 선택한다.
-        # 예: /home/jetson/data/1, /home/jetson/data/2가 있으면 3 선택
+        # 예: $HOME/data/1, $HOME/data/2가 있으면 3 선택
         # 1 이상이면 해당 번호 폴더에 저장한다.
         # 카메라 담당자와 같은 실험 번호를 맞춰야 하면 이 값을 명시적으로 넣으면 된다.
         self.declare_parameter("session_index", 0)
@@ -140,22 +141,22 @@ class PointCloud2JsonlRecorder(Node):
         저장 경로를 생성한다.
 
         기본 자동 모드:
-          /home/jetson/data 아래의 숫자 폴더를 확인하고 다음 번호를 선택한다.
+          $HOME/data 아래의 숫자 폴더를 확인하고 다음 번호를 선택한다.
 
           예:
             기존 폴더:
-              /home/jetson/data/1
-              /home/jetson/data/2
+              $HOME/data/1
+              $HOME/data/2
 
             새 저장 경로:
-              /home/jetson/data/3/lidar/spot_02_points_filtered.jsonl
+              $HOME/data/3/lidar/spot_02_points_filtered.jsonl
 
         수동 session_index 모드:
           session_index:=3 으로 실행하면
-              /home/jetson/data/3/lidar/spot_02_points_filtered.jsonl
+              $HOME/data/3/lidar/spot_02_points_filtered.jsonl
           에 저장한다.
 
-        수동 모드는 카메라 담당자가 이미 /home/jetson/data/3/camera를 만든 상황에서
+        수동 모드는 카메라 담당자가 이미 $HOME/data/3/camera를 만든 상황에서
         LiDAR도 같은 3번 실험 폴더에 맞춰 저장하고 싶을 때 사용한다.
         """
 
@@ -183,12 +184,12 @@ class PointCloud2JsonlRecorder(Node):
 
     def find_next_session_index(self, root_path):
         """
-        /home/jetson/data 아래에서 숫자 폴더만 확인해 다음 번호를 반환한다.
+        $HOME/data 아래에서 숫자 폴더만 확인해 다음 번호를 반환한다.
 
         예:
-          /home/jetson/data/1
-          /home/jetson/data/2
-          /home/jetson/data/test
+          $HOME/data/1
+          $HOME/data/2
+          $HOME/data/test
 
         위 구조에서는 숫자 폴더 1, 2만 보고 다음 번호 3을 반환한다.
         """

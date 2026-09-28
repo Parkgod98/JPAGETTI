@@ -3,7 +3,7 @@
   <name>video_collector</name>
   <version>0.0.1</version>
   <description>OAK-D Lite MJPEG 영상 수집 노드</description>
-  <maintainer email="todo@todo.com">spot_get_it</maintainer>
+  <maintainer email="maintainer@example.com">SPOT Get IT contributors</maintainer>
   <license>Apache-2.0</license>
 
   <exec_depend>rclpy</exec_depend>

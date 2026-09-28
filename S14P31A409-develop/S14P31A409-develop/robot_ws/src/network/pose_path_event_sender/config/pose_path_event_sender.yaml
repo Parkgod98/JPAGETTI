@@ -9,7 +9,7 @@ pose_path_event_sender:
       - "spot_04:3"
 
     # ── 네트워크 ─────────────────────────────────────────────────
-    rpi5_ip: "192.168.0.13"    # BridgeDaemon 수신 IP
+    rpi5_ip: "127.0.0.1"    # BridgeDaemon 수신 IP
     bridge_port: 9000           # BridgeDaemon 수신 포트 (BRIDGE_PORT)
 
     # ── 전송 주파수 ───────────────────────────────────────────────

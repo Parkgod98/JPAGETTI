@@ -20,7 +20,7 @@ from PIL import Image
 from ultralytics import YOLO
 
 # ── 설정 ───────────────────────────────────────────────────────────────────────
-BASE_DIR   = Path(r"C:\Users\SSAFY\Desktop\03\datasets")
+BASE_DIR   = Path(r"./datasets")
 TARGET_DIR = BASE_DIR / "coco_person"
 IMG_EXTS   = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 

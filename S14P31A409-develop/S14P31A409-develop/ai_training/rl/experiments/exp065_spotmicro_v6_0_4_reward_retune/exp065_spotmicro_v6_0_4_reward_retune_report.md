@@ -356,7 +356,7 @@ index 1e40cff..4ebf520 100644
 ![diagnostic_report.png](./diagnostic_report.png)
 ![joint_detail.png](./joint_detail.png)
 ![action_smoothness.png](./action_smoothness.png)
-![recovery_report.png](./recovery_report.png)
+> recovery_report.png 이미지는 이 스냅샷에 포함되어 있지 않습니다.
 
 
 ---

@@ -42,7 +42,7 @@ Jetson에서 ROS2 토픽을 구독하여 RPi5 BridgeDaemon으로 UDP 전송한�
 | 파라미터 | 타입 | 기본값 | 설명 |
 |---|---|---|---|
 | `robots` | string[] | `["spot_01:0"]` | 로봇 목록. `"robot_name:robot_id"` 형식 |
-| `rpi5_ip` | string | `"192.168.0.13"` | BridgeDaemon 수신 IP |
+| `rpi5_ip` | string | `"127.0.0.1"` | BridgeDaemon 수신 IP |
 | `bridge_port` | int | `9000` | BridgeDaemon 수신 포트 |
 | `pose_send_hz` | double | `10.0` | odom UDP 전송 주파수 상한 (Hz) |
 | `global_path_send_hz` | double | `1.0` | 마지막 global path UDP 재전송 주파수 (Hz), 0 이하이면 재전송 비활성화 |
@@ -61,7 +61,7 @@ source install/setup.bash
 ros2 launch pose_path_event_sender pose_path_event_sender.launch.py
 
 # RPi5 IP 변경
-ros2 launch pose_path_event_sender pose_path_event_sender.launch.py rpi5_ip:=192.168.0.100
+ros2 launch pose_path_event_sender pose_path_event_sender.launch.py rpi5_ip:=127.0.0.1
 ```
 
 ---

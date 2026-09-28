@@ -4,10 +4,10 @@ from pathlib import Path
 # -----------------------------------------------
 # 입력 경로 설정
 # 변환할 _annotations.coco.json 경로를 입력하세요
-INPUT_JSON = r"C:\Users\SSAFY\Desktop\03\datasets\person-Folder- coco_person.coco\valid\_annotations.coco.json"
+INPUT_JSON = r"./datasets/person-Folder- coco_person.coco/valid/_annotations.coco.json"
 
 # 변환된 라벨(.txt)을 저장할 디렉토리 경로를 입력하세요
-OUTPUT_DIR = r"C:\Users\SSAFY\Desktop\03\datasets\person-Folder- fall_detection.yolov11.coco\labels"
+OUTPUT_DIR = r"./datasets/person-Folder- fall_detection.yolov11.coco/labels"
 # -----------------------------------------------
 
 def coco_to_yolo(input_json: str, output_dir: str):

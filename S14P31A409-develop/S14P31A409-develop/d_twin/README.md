@@ -1,76 +1,41 @@
-# d_twin
+# 🌐 디지털 트윈
 
-Isaac Sim 기반 디지털 트윈 구성입니다. 로봇 상태를 ROS2로 수신하여 Isaac Sim 내 Spot prim에 반영하고, 시뮬레이션 로봇의 이동을 시각화합니다.
+[🐾 프로젝트 홈](../README.md) · [📖 Wiki](../docs/wiki/Home.md)
 
-## 구조
+---
 
+- `ros2/planning/global_path_manager`: 지도 설정을 읽어 로봇별 전역 경로를 생성·발행.
+- `ros2/planning/sar_planner`: 지도 입력 UI 및 정찰 경로 관련 코드.
+- `ros2/simulation/sim_executor`: 모의 로봇 경로 추종·UDP 데이터 송신.
+- `isaac_projects/scenes`: Isaac Sim 씬.
+- `scripts`: Isaac Sim Script Node 코드.
+
+## 환경과 빌드
+
+기존 문서는 Isaac Sim 5.1.0 및 내장 Python 3.11을 기준으로 작성돼 있습니다.
+설치본의 Python ABI와 ROS 메시지 바인딩을 직접 확인해야 합니다.
+`robot_ws_311`은 이 저장소에 포함돼 있지 않습니다.
+
+ROS 2 Humble 환경에서 별도 작업 디렉터리를 만들고:
+
+```bash
+source /opt/ros/humble/setup.bash
+mkdir -p "$HOME/spot-twin-ws"
+cd "$HOME/spot-twin-ws"
+rosdep install --from-paths "$PROJECT_ROOT/d_twin/ros2" "$PROJECT_ROOT/robot_ws/src/interfaces" --ignore-src -r -y
+colcon build --base-paths "$PROJECT_ROOT/d_twin/ros2" "$PROJECT_ROOT/robot_ws/src/interfaces" --symlink-install
+source install/setup.bash
 ```
-d_twin/
-├── isaac_projects/   # Isaac Sim 씬 파일(.usd) 및 실행 스크립트
-└── scripts/          # Isaac Sim Script Node용 Python 스크립트
+
+이 절차는 ROS 패키지 빌드용이며 Isaac Sim 내장 Python 호환 바인딩을 자동으로 만들지 않습니다.
+모의 실행용 영상 경로와 수신 IP를 먼저 설정한 뒤 별도 터미널에서 실행합니다.
+
+```bash
+ros2 launch global_path_manager global_path_manager.launch.py
+ros2 launch sim_executor sim_executor.launch.py
 ```
 
-## 하위 디렉토리 요약
-
-### `isaac_projects/`
-- Isaac Sim 씬 파일과 실행 스크립트 관리
-- `launch_isaac.sh`로 Isaac Sim 실행 환경을 준비
-- `scenes/`에 시뮬레이션 씬이 위치
-
-### `scripts/`
-- Isaac Sim Action Graph의 Script Node에서 사용되는 Python 코드
-- ROS2 토픽 구독 및 prim 위치/방향 반영 로직 포함
-- 스크립트 수정 시 Isaac Sim 재로드 또는 씬 재생성 필요
-
-## 요구 환경
-- Isaac Sim 5.1.0
-- ROS2 Humble
-- Python 3.11 (Isaac Sim 내장 Python 사용)
-- `robot_ws_311/` 또는 동일한 ROS2 인터페이스 빌드 환경
-
-## 설정 및 실행
-
-### 1. ROS2 환경 준비
-- `robot_ws_311` 또는 ROS2 Humble 워크스페이스를 빌드하고 소스합니다.
-  ```bash
-  cd /home/ubuntu/SPOT_GET_IT/robot_ws_311
-  rosdep install --from-paths src --ignore-src -r -y
-  colcon build --symlink-install
-  source install/setup.bash
-  ```
-
-### 2. d_twin 실행
-- ROS2 노드 실행
-  ```bash
-  ros2 launch global_path_manager global_path_manager.launch.py
-  ros2 launch sim_executor sim_executor.launch.py
-  ```
-- Isaac Sim 실행
-  ```bash
-  /home/ubuntu/SPOT_GET_IT/d_twin/isaac_projects/launch_isaac.sh
-  ```
-- Isaac Sim에서 Play 버튼 실행 후 ScriptNode 경고가 뜨면 `Yes` 선택
-
-## 빌드 / 포팅 가이드
-
-### 새로운 머신으로 포팅
-1. 동일한 Isaac Sim 버전 설치
-2. ROS2 Humble 및 `robot_ws_311` 환경 구성
-3. `d_twin` 디렉토리 전체 복제
-4. `isaac_projects/launch_isaac.sh` 내 경로가 로컬 경로와 일치하는지 확인
-5. Isaac Sim 실행 후 `scripts/` 경로가 씬 내 Script Node에 올바르게 설정되었는지 검증
-
-### ROS2/Isaac Sim 연동 포인트
-- ROS2 토픽 수신 경로 확인: `/localization/robot/state` 등
-- `scripts/`의 구독 노드와 메시지 타입이 `robot_interfaces` 빌드와 일치해야 함
-- Isaac Sim 씬 내부의 Script Node가 `scripts/` 경로를 참조하도록 설정
-
-### 포팅 시 주의 사항
-- `robot_ws_311`과 `d_twin` 간 ROS2 메시지/서비스 정의 버전 일치
-- Isaac Sim에서 사용하는 Python 버전과 외부 패키지 호환성
-- 네트워크 연결이 필요한 경우 ROS2 DDS 설정, IP/멀티캐스트 구성 확인
-- 씬 파일 경로가 바뀌었을 때 `launch_isaac.sh`와 Isaac Sim 프로젝트 설정을 함께 수정
-
-## 참고
-- `d_twin/isaac_projects/README.md`에 Isaac Sim 씬별 세부 안내가 있을 수 있습니다.
-- `scripts/` 코드 변경 시 Isaac Sim을 재실행하거나 씬을 재로드하여 변경 사항이 반영되었는지 확인하십시오.
+Isaac Sim은 `ISAAC_SIM_ROOT`로 설치 위치를 지정하여 `isaac_projects/launch_isaac.sh`를 실행합니다.
+씬의 Script Node 경로, `scripts/robot_localization.py`의 메시지 라이브러리 경로,
+`sim_executor_script.py`의 영상·IP 설정은 설치 환경에 맞춰 확인해야 합니다.
+실제 시뮬레이터 실행은 이번 정리에서 검증하지 않았습니다.

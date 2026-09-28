@@ -1,7 +1,7 @@
 from pathlib import Path
 
 datasets = [
-    r"C:\Users\SSAFY\Desktop\03\datasets\HUMAN.yolov11_seg",
+    r"./datasets/HUMAN.yolov11_seg",
 ]
 
 DRY_RUN = False  # True: 출력만 / False: 실제 수정
