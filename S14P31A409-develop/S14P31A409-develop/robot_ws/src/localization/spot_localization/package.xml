@@ -4,7 +4,7 @@
   <name>spot_localization</name>
   <version>0.0.0</version>
   <description>Gait-based localization package for Spot Micro robot.</description>
-  <maintainer email="aaxz000@gmail.com">bw522</maintainer>
+  <maintainer email="maintainer@example.com">SPOT Get IT contributors</maintainer>
   <license>TODO: License declaration</license>
 
   <!-- ========================================================= -->

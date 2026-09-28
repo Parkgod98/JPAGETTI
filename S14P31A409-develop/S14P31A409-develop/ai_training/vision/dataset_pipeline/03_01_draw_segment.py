@@ -4,11 +4,11 @@ import numpy as np
 
 
 datasets = [
-    r"C:\Users\SSAFY\Desktop\03\datasets\coco_person",
+    r"./datasets/coco_person",
 ]
 
 IMAGE_EXTS  = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
-OUTPUT_ROOT = Path(r"C:\Users\SSAFY\Desktop\03\datasets\00_result")
+OUTPUT_ROOT = Path(r"./datasets/00_result")
 
 LINE_COLOR  = (0, 255, 0)
 FILL_COLOR  = (0, 255, 0)

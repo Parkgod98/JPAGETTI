@@ -3,8 +3,8 @@
 작성일: 2026-05-04
 
 대상:
-- BridgeDaemon: `/home/pi/robot_project/bride_app_codex`
-- Qt App: `/home/pi/robot_project/disaster_control_qt`
+- BridgeDaemon: `$HOME/robot_project/bride_app_codex`
+- Qt App: `$HOME/robot_project/disaster_control_qt`
 
 ## 1. 문제 정의
 

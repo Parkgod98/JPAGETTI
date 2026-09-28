@@ -19,7 +19,7 @@ def package_launch(package_name, launch_file):
 def generate_launch_description():
     declare_rpi5_ip = DeclareLaunchArgument(
         "rpi5_ip",
-        default_value="192.168.0.13",
+        default_value="127.0.0.1",
         description="BridgeDaemon가 실행 중인 RPi5 IP",
     )
     declare_enable_pose_path_event = DeclareLaunchArgument(

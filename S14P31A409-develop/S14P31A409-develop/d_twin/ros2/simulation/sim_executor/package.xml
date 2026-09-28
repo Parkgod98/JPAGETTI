@@ -3,7 +3,7 @@
   <name>sim_executor</name>
   <version>0.1.0</version>
   <description>Sim robot path executor for SPOT Get IT</description>
-  <maintainer email="todo@todo.com">SPOT Get IT</maintainer>
+  <maintainer email="maintainer@example.com">SPOT Get IT contributors</maintainer>
   <license>Apache-2.0</license>
   <depend>rclpy</depend>
   <depend>nav_msgs</depend>

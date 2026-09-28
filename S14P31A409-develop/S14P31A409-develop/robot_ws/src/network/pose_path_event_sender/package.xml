@@ -8,7 +8,7 @@
     구독하여 BridgeDaemon(RPi5)으로 UDP 전송한다. 다중 로봇 지원.
   </description>
 
-  <maintainer email="todo@todo.com">your_name</maintainer>
+  <maintainer email="maintainer@example.com">SPOT Get IT contributors</maintainer>
   <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

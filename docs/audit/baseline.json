@@ -1,0 +1,1165 @@
+{
+  "baseline_head": "411f736b9bf479629cdaeb18b90a69e9c249133d",
+  "tracked_files": 1650,
+  "tracked_mib": 815.12,
+  "reachable_commits": 1,
+  "shallow": "false",
+  "hits": [
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/exports/spotmicro_v6_1_3_model_4100_vectors/metadata.json",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        3,
+        4
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/exports/spotmicro_v6_1_5_model/metadata.json",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        3,
+        4
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/exports/spotmicro_v6_3_1_model_vectors/metadata.json",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        3,
+        4
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/exports/spotmicro_v7_1_model_vectors/metadata.json",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        3,
+        4
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/actuator_nets/anydrive_v3_lstm.pt!sea_lstm_jit3/code/__torch__/models.py.debug_pkl",
+      "category": "private_path",
+      "count": 1,
+      "binary": true,
+      "lines": []
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/actuator_nets/anydrive_v3_lstm.pt!sea_lstm_jit3/code/__torch__/torch/nn/modules/rnn.py.debug_pkl",
+      "category": "private_path",
+      "count": 1,
+      "binary": true,
+      "lines": []
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/actuator_nets/anydrive_v3_lstm.pt!sea_lstm_jit3/code/__torch__/torch/nn/modules/linear.py.debug_pkl",
+      "category": "private_path",
+      "count": 1,
+      "binary": true,
+      "lines": []
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/actuator_nets/anydrive_v3_lstm.pt!sea_lstm_jit3/code/__torch__/torch/nn/functional.py.debug_pkl",
+      "category": "private_path",
+      "count": 1,
+      "binary": true,
+      "lines": []
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spot_micro/Parts/SpotMicroAI_AdditionalParts.FCStd!Document.xml",
+      "category": "private_path",
+      "count": 2,
+      "binary": true,
+      "lines": []
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spot_micro/Parts/SpotMicroAI_JetsonParts.FCStd!Document.xml",
+      "category": "private_path",
+      "count": 1,
+      "binary": true,
+      "lines": []
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spot_micro/Parts/SpotMicroAI_JetsonParts.FCStd1!Document.xml",
+      "category": "private_path",
+      "count": 1,
+      "binary": true,
+      "lines": []
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spot_micro/Parts/spotmicroai.blend",
+      "category": "private_path",
+      "count": 4,
+      "binary": true,
+      "lines": []
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spotmicro_test/Parts/SpotMicroAI_AdditionalParts.FCStd!Document.xml",
+      "category": "private_path",
+      "count": 2,
+      "binary": true,
+      "lines": []
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spotmicro_test/Parts/SpotMicroAI_JetsonParts.FCStd!Document.xml",
+      "category": "private_path",
+      "count": 1,
+      "binary": true,
+      "lines": []
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spotmicro_test/Parts/SpotMicroAI_JetsonParts.FCStd1!Document.xml",
+      "category": "private_path",
+      "count": 1,
+      "binary": true,
+      "lines": []
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spotmicro_test/Parts/spotmicroai.blend",
+      "category": "private_path",
+      "count": 4,
+      "binary": true,
+      "lines": []
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/test_vectors/v5_4_4/metadata.json",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        3,
+        4
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/vision/dataset_pipeline/01_delete_orphan.py",
+      "category": "private_path",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        5
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/vision/dataset_pipeline/02_make_all_0_person.py",
+      "category": "private_path",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        5
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/vision/dataset_pipeline/03_01_draw_segment.py",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        7,
+        11
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/vision/dataset_pipeline/03_draw_bbox.py",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        5,
+        9
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/vision/dataset_pipeline/04_delete_unfit.py",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        5,
+        8
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/vision/dataset_pipeline/05_coco_to_yolov11.py",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        7,
+        10
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/vision/dataset_pipeline/06_segmentation_to_bbox.py",
+      "category": "private_path",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        4
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/vision/dataset_pipeline/07_crawl_from_coco.py",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        8,
+        23
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/vision/dataset_pipeline/08_filt_coco.py",
+      "category": "private_path",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        23
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/vision/dataset_pipeline/README.md",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        16,
+        17
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/vision/training/README.md",
+      "category": "private_path",
+      "count": 3,
+      "binary": false,
+      "lines": [
+        89,
+        101,
+        117
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/vision/training/person_detection_yolo11.ipynb",
+      "category": "private_path",
+      "count": 45,
+      "binary": false,
+      "lines": [
+        32,
+        56,
+        81,
+        83,
+        343,
+        345,
+        347,
+        349,
+        351,
+        353,
+        355,
+        357,
+        359,
+        361,
+        363,
+        365,
+        377,
+        384,
+        386,
+        388,
+        390,
+        392,
+        394,
+        410,
+        477,
+        479,
+        481,
+        483,
+        485,
+        487,
+        489,
+        505,
+        507,
+        509,
+        511,
+        513,
+        515,
+        517,
+        519,
+        521,
+        523,
+        525,
+        527,
+        538,
+        553
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/d_twin/README.md",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        36,
+        50
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/d_twin/isaac_projects/launch_isaac.sh",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        12,
+        14
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/d_twin/ros2/simulation/sim_executor/config/sim_executor.param.yaml",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        12,
+        13
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/d_twin/ros2/simulation/sim_executor/config/sim_executor.param.yaml",
+      "category": "private_ip",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        8
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/d_twin/scripts/robot_localization.py",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        4,
+        25
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/d_twin/scripts/sim_executor_script.py",
+      "category": "private_path",
+      "count": 5,
+      "binary": false,
+      "lines": [
+        53,
+        55,
+        56,
+        57,
+        58
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/d_twin/scripts/sim_executor_script.py",
+      "category": "private_ip",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        46
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/experimenter/lidar_collector/lidar_collector/pointcloud2_jsonl_recorder.py",
+      "category": "private_path",
+      "count": 17,
+      "binary": false,
+      "lines": [
+        10,
+        16,
+        52,
+        53,
+        54,
+        64,
+        143,
+        147,
+        148,
+        151,
+        155,
+        158,
+        186,
+        189,
+        190,
+        191
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/firmware/bno055_i2c_busy_recovery_report.md",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        6,
+        44
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/README.md",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        43,
+        61
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/bringup/robot_bringup/launch/sensor_experimenter.launch.py",
+      "category": "private_path",
+      "count": 5,
+      "binary": false,
+      "lines": [
+        14,
+        18,
+        19,
+        104,
+        111
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/control/rl_locomotion/test_vectors/exp043/metadata.json",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        3,
+        4
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/experimenter/lidar_collector/lidar_collector/pointcloud2_jsonl_recorder.py",
+      "category": "private_path",
+      "count": 17,
+      "binary": false,
+      "lines": [
+        10,
+        16,
+        52,
+        53,
+        54,
+        64,
+        143,
+        147,
+        148,
+        151,
+        155,
+        158,
+        186,
+        189,
+        190,
+        191
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/experimenter/video_collector/config/video_collector.param.yaml",
+      "category": "private_path",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        4
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/experimenter/video_collector/video_collector/video_collector_node.py",
+      "category": "private_path",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        17
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/camera_stream_sender/README.md",
+      "category": "private_ip",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        23
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/lidar_stream_sender/README.md",
+      "category": "private_ip",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        35,
+        59
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/lidar_stream_sender/config/lidar_stream_sender.param.yaml",
+      "category": "private_ip",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        4
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/network_bringup/README.md",
+      "category": "private_ip",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        15
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/network_bringup/launch/network_bringup.launch.py",
+      "category": "private_ip",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        22
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/pose_path_event_sender/README.md",
+      "category": "private_ip",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        45,
+        64
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/pose_path_event_sender/config/pose_path_event_sender.yaml",
+      "category": "private_ip",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        12
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/pose_path_event_sender/launch/pose_path_event_sender.launch.py",
+      "category": "private_ip",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        9,
+        23
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/pose_path_event_sender/src/pose_path_event_sender_node.cpp",
+      "category": "private_ip",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        63,
+        547
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/perception/camera_perception/README.md",
+      "category": "private_path",
+      "count": 4,
+      "binary": false,
+      "lines": [
+        42,
+        59,
+        65,
+        66
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/perception/camera_perception/camera_perception/camera_perception_node.py",
+      "category": "private_path",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        16
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/robot_ws/src/perception/camera_perception/config/camera_perception.param.yaml",
+      "category": "private_path",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        3
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/rpi/bridge_app/docs_architecture/bridge_qt_full_flow.md",
+      "category": "private_path",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        39
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/rpi/bridge_app/docs_architecture/qt_bridgeclient_encapsulation_plan.md",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        6,
+        7
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/rpi/bridge_app/docs_source_walkthrough/0428_bride_app_codex_line_by_line_report.md",
+      "category": "private_path",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        4
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/rpi/bridge_app/docs_source_walkthrough/indexed_source_flow_report.md",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        230,
+        1024
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/rpi/qt_app/src/dashboardwidgets.cpp",
+      "category": "private_path",
+      "count": 1,
+      "binary": false,
+      "lines": [
+        1435
+      ]
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/rpi/qt_app/src/mainwindow.cpp",
+      "category": "private_path",
+      "count": 2,
+      "binary": false,
+      "lines": [
+        945,
+        951
+      ]
+    }
+  ],
+  "elf_binaries": [
+    "S14P31A409-develop/S14P31A409-develop/rpi/bridge_app/bridge_daemon",
+    "S14P31A409-develop/S14P31A409-develop/rpi/bridge_app/jetson_cmd_echo"
+  ],
+  "large_files": [
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/anymal_b/meshes/anymal_base.dae",
+      "mib": 8.81
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spot_micro/Parts/spotmicroai.blend",
+      "mib": 18.38
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spotmicro_test/Parts/spotmicroai.blend",
+      "mib": 18.38
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/vision/models/best.engine",
+      "mib": 7.99
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/hardware/cad/STL/Full_Assembly.stl",
+      "mib": 39.67
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/hardware/cad/STL/Left Arm.stl",
+      "mib": 7.82
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/hardware/cad/STL/Right Arm.stl",
+      "mib": 6.01
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/hardware/cad/step/SPOT_GET_IT.step",
+      "mib": 14.11
+    }
+  ],
+  "zip_containers": [
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp001_spotmicro_v1_0_ik_tracking/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp002_spotmicro_v1_1_0_lin_vel_improve/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp003_spotmicro_v1_1_1_lin_vel_improve/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp004_spotmicro_v1_1_2_orientation_improve/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp005_spotmicro_v1_1_3_vel_improve/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp006_spotmicro_v1_1_4_sigma_desc/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp007_spotmicro_v2_0_DR_friction/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp008_spotmicro_v2_1_DR_mass/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp009_spotmicro_v2_2_DR_external_push/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp010_spotmicro_v2_3_DR_sensor_noise/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp011_spotmicro_v2_3_1_DR_sensor_noise/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp012_spotmicro_v2_3_2_DR_sensor_noise/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp013_spotmicro_v2_4_DR_servo_delay/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp014_spotmicro_v2_5_stand_still/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp015_spotmicro_v2_5_1_stand_still/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp016_spotmicro_v2_5_2_stand_turn/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp017_spotmicro_v2_6_reset_state/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp018_spotmicro_v2_7_stab_ang_improve/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp019_spotmicro_v2_7_1_stab_ang_improve/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp020_spotmicro_v2_8_ang_shoulder/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp021_spotmicro_v2_9_angle_weight/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp022_spotmicro_v2_10_ang_improve/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp023_spotmicro_v2_11_resample_mode/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp024_spotmicro_v3_0_change_urdf/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp025_spotmicro_v3_1_PD_change/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp026_spotmicro_v3_1_1_urdf_fix/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp027_spotmicro_v3_1_2_PD_adjust/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp028_spotmicro_v3_1_3_PD_adjust/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp029_spotmicro_v3_2_noise_order/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp030_spotmicro_v3_3_ik_desc/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp031_spotmicro_v3_3_1_torque_improve/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp032_spotmicro_v3_3_2_torque_improve/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp033_spotmicro_v3_4_ik_sigma_asc/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp034_spotmicro_v4_0_new_tracking_ik/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp035_spotmicro_v4_0_1_shoulder_weight/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp036_spotmicro_v4_1_new_IK/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp037_spotmicro_v4_2_height_reward/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp038_spotmicro_v4_3_body_height/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp039_spotmicro_v4_4_pitch_z/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp040_spotmicro_v4_4_pitch_z/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp041_spotmicro_v4_6_lin_range_desc/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp042_spotmicro_v3_2_noise_order/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp043_spotmicro_v3_2_noise_order/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp044_spotmicro_v5_1_terrain_curriculum/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp045_spotmicro_v5_2_gait_period/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp046_spotmicro_v5_2_1_gait_perioid/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp047_spotmicro_v5_2_2_tracking_ik_desc/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp048_spotmicro_v5_2_2_tracking_ik_desc/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp049_spotmicro_v5_2_2_tracking_ik_desc/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp050_spotmicro_v5_2_2_tracking_ik_desc/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp051_spotmicro_v5_3_stand_still/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp052_spotmicro_v5_4_IK_yaw/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp053_spotmicro_v5_4_1_shoulder_tuning/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp054_spotmicro_v5_4_2_stride_tuning/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp055_spotmicro_v5_4_3_turn_width/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp056_spotmicro_v5_4_4_IK rollback/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp057_spotmicro_v5_4_4_IK rollback/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp058_spotmicro_v5_4_4_IK rollback/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp059_spotmicro_v5_6_recovery_assist/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp060_spotmicro_v5_6_1_recovery_assist_push/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp061_spotmicro_v6_0_shared_ik_retrain/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp062_spotmicro_v6_0_1_shared_ik_cmd_deadband/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp063_spotmicro_v6_0_2_forward_tracking/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp064_spotmicro_v6_0_3_low_speed_clearance/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp065_spotmicro_v6_0_4_reward_retune/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp066_spotmicro_v6_1_recovery_resume/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp067_spotmicro_v6_1_1_contact_termination/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp068_spotmicro_v6_1_2_transition_recovery/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp069_spotmicro_v6_1_3_stronger_transition_push/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp070_spotmicro_v6_1_4_moderate_shove_recovery/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp071_spotmicro_v6_1_5_slippery_rear_com_motor_dr/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp073_spotmicro_v6_2_prefall_tilt_recovery/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp074_spotmicro_v6_2_1_prefall_tilt_recovery_25deg/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp075_spotmicro_v6_2_2_prefall_tilt_recovery_25deg_continue/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp076_spotmicro_v6_2_3_prefall_tilt_recovery_30deg/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp077_spotmicro_v6_2_4_prefall_tilt_recovery_30deg_continue/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp078_spotmicro_v6_2_5_prefall_tilt_recovery_30deg_authority/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp079_spotmicro_v6_2_6_prefall_tilt_recovery_30deg_rollback/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp080_spotmicro_v6_3_prefall_transition_tilt_sampler/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp081_spotmicro_v6_3_1_prefall_transition_tilt_sampler_soft/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp082_spotmicro_v6_3_2_prefall_transition_tilt_sampler_focused/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp083_spotmicro_v6_3_3_prefall_transition_tilt_sampler_stable/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp084_spotmicro_v6_4_prefall_brace_mode/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp085_spotmicro_v7_0_slope_terrain_curriculum/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp086_spotmicro_v7_0_slope_terrain_curriculum/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp087_spotmicro_v7_0_1_slope_terrain_continue/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp088_spotmicro_v7_1_slope_terrain_gentle_restart/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp089_spotmicro_v7_1_slope_terrain_gentle_restart/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp090_spotmicro_v7_1_1_slope_terrain_walk_refine/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp091_spotmicro_v7_1_2_slope_terrain_walk_margin/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/experiments/exp092_spotmicro_v7_1_3_slope_terrain_survival_margin/model_final.pt",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/actuator_nets/anydrive_v3_lstm.pt",
+      "entries": 25
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spot_micro/Parts/SpotMicroAI_AdditionalParts.FCStd",
+      "entries": 414
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spot_micro/Parts/SpotMicroAI_Bottom.FCStd",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spot_micro/Parts/SpotMicroAI_Bottom.FCStd1",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spot_micro/Parts/SpotMicroAI_JetsonParts.FCStd",
+      "entries": 198
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spot_micro/Parts/SpotMicroAI_JetsonParts.FCStd1",
+      "entries": 198
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spot_micro/Parts/SpotMicroAI_Rear.FCStd",
+      "entries": 76
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spot_micro/Parts/SpotMicroAI_Top.FCStd",
+      "entries": 58
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spot_micro/Parts/SpotMicroAI_Top.FCStd1",
+      "entries": 2
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spotmicro_test/Parts/SpotMicroAI_AdditionalParts.FCStd",
+      "entries": 414
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spotmicro_test/Parts/SpotMicroAI_Bottom.FCStd",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spotmicro_test/Parts/SpotMicroAI_Bottom.FCStd1",
+      "entries": 72
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spotmicro_test/Parts/SpotMicroAI_JetsonParts.FCStd",
+      "entries": 198
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spotmicro_test/Parts/SpotMicroAI_JetsonParts.FCStd1",
+      "entries": 198
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spotmicro_test/Parts/SpotMicroAI_Rear.FCStd",
+      "entries": 76
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spotmicro_test/Parts/SpotMicroAI_Top.FCStd",
+      "entries": 58
+    },
+    {
+      "path": "S14P31A409-develop/S14P31A409-develop/ai_training/rl/legged_gym/resources/robots/spotmicro_test/Parts/SpotMicroAI_Top.FCStd1",
+      "entries": 2
+    }
+  ],
+  "empty_files": [
+    "S14P31A409-develop/S14P31A409-develop/d_twin/ros2/planning/global_path_manager/global_path_manager/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/d_twin/ros2/planning/global_path_manager/resource/global_path_manager",
+    "S14P31A409-develop/S14P31A409-develop/d_twin/ros2/planning/sar_planner/resource/sar_planner",
+    "S14P31A409-develop/S14P31A409-develop/d_twin/ros2/planning/sar_planner/sar_planner/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/d_twin/ros2/planning/sar_planner/sar_planner/core/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/d_twin/ros2/planning/sar_planner/sar_planner/ros/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/d_twin/ros2/planning/sar_planner/sar_planner/ui/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/d_twin/ros2/simulation/sim_executor/resource/sim_executor",
+    "S14P31A409-develop/S14P31A409-develop/d_twin/ros2/simulation/sim_executor/sim_executor/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/experimenter/lidar_collector/lidar_collector/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/experimenter/lidar_collector/resource/lidar_collector",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/bringup/robot_bringup/README.md",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/bringup/robot_bringup/config/control_core.param.yaml",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/bringup/robot_bringup/launch/control_core.launch.py",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/bringup/robot_bringup/launch/hardware_rl_low_speed.launch.py",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/bringup/robot_bringup/launch/hardware_stand.launch.py",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/control/actuator_bridge/README.md",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/control/actuator_bridge/config/joint_config.yaml",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/control/rl_locomotion/models/.gitkeep",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/control/rl_locomotion/resource/rl_locomotion",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/control/rl_locomotion/rl_locomotion/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/experimenter/lidar_collector/lidar_collector/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/experimenter/lidar_collector/resource/lidar_collector",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/experimenter/video_collector/resource/video_collector",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/experimenter/video_collector/video_collector/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/camera_stream_sender/camera_stream_sender/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/camera_stream_sender/resource/camera_stream_sender",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/lidar_sparse/lidar_sparse/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/lidar_sparse/resource/lidar_sparse",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/lidar_stream_sender/lidar_stream_sender/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/network/lidar_stream_sender/resource/lidar_stream_sender",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/perception/camera_perception/camera_perception/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/perception/camera_perception/resource/camera_perception",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/vendor/oak_camera_driver/oak_camera_driver/__init__.py",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/vendor/oak_camera_driver/resource/oak_camera_driver",
+    "S14P31A409-develop/S14P31A409-develop/robot_ws/src/vendor/oak_camera_driver/resource/oak_camera_driver~touch"
+  ]
+}

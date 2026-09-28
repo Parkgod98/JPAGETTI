@@ -1,7 +1,7 @@
 lidar_stream_sender_node:
   ros__parameters:
     # RPi BridgeDaemon IP (필수 - 실제 환경에 맞게 수정)
-    target_ip: "192.168.0.13"
+    target_ip: "127.0.0.1"
 
     # 로봇 ID (BridgeDaemon의 robot_id와 일치해야 함)
     robot_id: 0

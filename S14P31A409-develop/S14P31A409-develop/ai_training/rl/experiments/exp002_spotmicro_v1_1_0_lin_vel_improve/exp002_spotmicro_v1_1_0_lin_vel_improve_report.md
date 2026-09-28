@@ -250,13 +250,13 @@ index 9f10d38..488fd48 100644
 ## 그래프
 
 ### Tensorboard 학습 곡선
-![tb_training_curves.png](experiments/exp002_spotmicro_v1_1_0_lin_vel_improve/tb_training_curves.png)
-![tb_individual_rewards.png](experiments/exp002_spotmicro_v1_1_0_lin_vel_improve/tb_individual_rewards.png)
+![tb_training_curves.png](./tb_training_curves.png)
+![tb_individual_rewards.png](./tb_individual_rewards.png)
 
 ### Diagnostic 결과
-![diagnostic_report.png](experiments/exp002_spotmicro_v1_1_0_lin_vel_improve/diagnostic_report.png)
-![joint_detail.png](experiments/exp002_spotmicro_v1_1_0_lin_vel_improve/joint_detail.png)
-![action_smoothness.png](experiments/exp002_spotmicro_v1_1_0_lin_vel_improve/action_smoothness.png)
+![diagnostic_report.png](./diagnostic_report.png)
+![joint_detail.png](./joint_detail.png)
+![action_smoothness.png](./action_smoothness.png)
 
 
 ---

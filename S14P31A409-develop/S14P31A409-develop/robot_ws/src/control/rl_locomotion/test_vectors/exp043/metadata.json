@@ -1,7 +1,7 @@
 {
   "task": "spotmicro_test",
-  "checkpoint": "/home/jyk/SPOT_GET_IT/ai_training/rl/legged_gym/logs/spotmicro_test/May07_12-02-03_spotmicro_v3_2_noise_order/model_1500.pt",
-  "onnx": "/home/jyk/SPOT_GET_IT/robot_ws/src/control/rl_locomotion/models/exp043_policy.onnx",
+  "checkpoint": "ai_training/rl/legged_gym/logs/spotmicro_test/May07_12-02-03_spotmicro_v3_2_noise_order/model_1500.pt",
+  "onnx": "robot_ws/src/control/rl_locomotion/models/exp043_policy.onnx",
   "obs_dim": 47,
   "action_dim": 12,
   "num_vectors": 128,

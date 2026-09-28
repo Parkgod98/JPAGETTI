@@ -3,7 +3,7 @@
 대상 펌웨어 경로:
 
 ```text
-C:\Users\SSAFY\Desktop\ver3_0518_imu_recovery\firmware_05161929_update_pin
+./ver3_0518_imu_recovery\firmware_05161929_update_pin
 ```
 
 수정한 주요 파일:
@@ -41,7 +41,7 @@ STM32F446RE 펌웨어에서 BNO055 IMU를 I2C1로 초기화하는 과정이 계�
 작업 대상은 `ver3_0518_imu_recovery` 아래의 다음 폴더였다.
 
 ```text
-C:\Users\SSAFY\Desktop\ver3_0518\firmware_05161929_update_pin
+./ver3_0518\firmware_05161929_update_pin
 ```
 
 처음 확인했을 때 `Debug/ST.list`에는 `bno055_init_imuplus(&hi2c1)` 호출 흔적이 있었지만, 실제 소스인 `Src/main.c`에는 해당 호출이 빠져 있었다. 즉 빌드 산출물과 현재 소스가 일치하지 않는 상태였다.

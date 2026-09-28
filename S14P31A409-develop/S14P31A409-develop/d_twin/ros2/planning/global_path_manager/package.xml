@@ -4,7 +4,7 @@
 	<name>global_path_manager</name>
 	<version>0.1.0</version>
 	<description>Global path manager for SPOT Get IT</description>
-	<maintainer email="todo@todo.com">SPOT Get IT</maintainer>
+	<maintainer email="maintainer@example.com">SPOT Get IT contributors</maintainer>
 	<license>Apache-2.0</license>
 
 	<exec_depend>rclpy</exec_depend>

@@ -1,10 +1,9 @@
-# tools
+# 🛠️ 시험 도구
 
-개발 지원 유틸리티. 빌드 산출물 아님.
+[🐾 프로젝트 홈](../README.md) · [📖 Wiki](../docs/wiki/Home.md)
 
-## 예정 구성
-- `servo_calibration/` — STS3215 ID 할당, 영점 조정
-- `rosbag_analyzer/` — rosbag2 기록 분석
-- `benchmarks/` — cyclictest, 제어 주기 측정
+---
 
-담당: 공통 (필요한 사람이 추가)
+현재 파일은 `spi_dummy_test.py`, `spi_trot_test.py`, `spi_trot_test.cpp`입니다.
+SPI 연결과 보행 명령을 시험하는 도구이며, 장비 경로·프로토콜·관절 설정 확인이 필요합니다.
+실제 장비 구동을 동반하므로 이번 문서·공개 정리에서는 실행하지 않았습니다.

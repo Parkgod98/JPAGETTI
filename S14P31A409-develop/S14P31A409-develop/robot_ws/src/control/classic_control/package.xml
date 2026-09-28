@@ -4,7 +4,7 @@
   <name>classic_control</name>
   <version>0.0.0</version>
   <description>Classic locomotion controller for SpotMicro.</description>
-  <maintainer email="jetson@todo.todo">jetson</maintainer>
+  <maintainer email="maintainer@example.com">SPOT Get IT contributors</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>

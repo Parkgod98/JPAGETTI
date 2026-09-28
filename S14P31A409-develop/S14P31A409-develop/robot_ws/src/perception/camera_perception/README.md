@@ -39,7 +39,7 @@ N프레임 연속 탐지 조건을 충족하면 `/perception/person_detected/{ro
 
 | 파라미터 | 타입 | 기본값 | 설명 |
 |----------|------|--------|------|
-| `engine_path` | str | `/home/jetson/models/best.engine` | 엔진 파일 경로. 확장자로 백엔드 자동 분기 (`.engine` → TRT, `.onnx` → ONNX) |
+| `engine_path` | str | `$HOME/models/best.engine` | 엔진 파일 경로. 확장자로 백엔드 자동 분기 (`.engine` → TRT, `.onnx` → ONNX) |
 | `conf_threshold` | float | 0.7 | 탐지 confidence 임계값 |
 | `iou_threshold` | float | 0.45 | NMS IOU 임계값 |
 | `infer_size` | int | 480 | 추론 입력 크기 (정사각형) |
@@ -56,14 +56,14 @@ N프레임 연속 탐지 조건을 충족하면 `/perception/person_detected/{ro
 TensorRT 엔진 파일은 패키지 내부에 포함하지 않는다. 크기가 크고 버전 관리가 별도로 필요하기 때문이다.
 
 ```
-/home/jetson/models/
+$HOME/models/
 └── best.engine
 ```
 
 | 환경 | engine_path |
 |------|-------------|
-| Jetson Orin Nano | `/home/jetson/models/best.engine` (TensorRT FP16) |
-| 로컬 PC | `/home/ubuntu/models/best.onnx` (ONNX Runtime) |
+| Jetson Orin Nano | `$HOME/models/best.engine` (TensorRT FP16) |
+| 로컬 PC | `$HOME/models/best.onnx` (ONNX Runtime) |
 
 yaml의 `engine_path`만 변경하면 환경 전환이 가능하다. 코드 수정 불필요.
 

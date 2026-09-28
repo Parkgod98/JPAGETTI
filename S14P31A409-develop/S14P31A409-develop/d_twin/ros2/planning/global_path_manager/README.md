@@ -116,6 +116,6 @@ python3 visualize_paths.py
 
 ## 경로 시각화 예시
 
-![경로 시각화 결과물](path_result_01_05.png)
+![4대 로봇 경로 시각화 예시](path_result_4robots_01_map.png)
 
-![경로 보간점 시각화 결과물](path_result_02_05.png)
+원 문서의 path_result_01_05.png 및 path_result_02_05.png는 이 스냅샷에 포함되어 있지 않습니다.

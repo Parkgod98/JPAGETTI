@@ -60,7 +60,7 @@ public:
         : Node("pose_path_event_sender")
     {
         declare_parameter<std::vector<std::string>>("robots", {"spot_01:0"});
-        declare_parameter<std::string>("rpi5_ip", "192.168.0.13");
+        declare_parameter<std::string>("rpi5_ip", "127.0.0.1");
         declare_parameter<int>("bridge_port", BRIDGE_PORT);
         declare_parameter<double>("pose_send_hz", 10.0);
         declare_parameter<double>("global_path_send_hz", 1.0);
@@ -544,7 +544,7 @@ private:
     int udp_fd_ {-1};
     struct sockaddr_in rpi5_addr_ {};
 
-    std::string rpi5_ip_ {"192.168.0.13"};
+    std::string rpi5_ip_ {"127.0.0.1"};
     std::string pose_topic_ {"/localization/mock_pose"};
     std::string global_path_topic_prefix_ {"/planning/global_path"};
     std::string global_path_message_type_ {"robot_interfaces/msg/GlobalPathWaypoints"};

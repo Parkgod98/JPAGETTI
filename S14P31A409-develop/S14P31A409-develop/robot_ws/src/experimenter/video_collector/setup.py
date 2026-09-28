@@ -16,7 +16,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='spot_get_it',
+    maintainer="SPOT Get IT contributors",
     description='OAK-D Lite MJPEG 영상 수집 노드',
     entry_points={
         'console_scripts': [

@@ -1,0 +1,22 @@
+{
+  "parse_counts": {
+    "python": 188,
+    "json": 98,
+    "notebook": 1,
+    "yaml": 54,
+    "xml": 24
+  },
+  "parse_issues": [],
+  "broken_markdown_links": [],
+  "extra_pattern_hits": [],
+  "diff_check_passed": true,
+  "commit_metadata": [
+    {
+      "commit": "411f736b9bf479629cdaeb18b90a69e9c249133d",
+      "author_committer_email_fields": 2,
+      "secret_signature_found": false
+    }
+  ],
+  "remaining_binary_files": 9,
+  "remaining_text_pattern_hits": []
+}

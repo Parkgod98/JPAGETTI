@@ -1432,7 +1432,7 @@ private:
             QDir(appDir).absoluteFilePath("../../../stl_data/Parts"),
             QDir(cwd).absoluteFilePath("stl_data/Parts"),
             QDir(cwd).absoluteFilePath("../stl_data/Parts"),
-            QStringLiteral("/home/pi/robot_project/stl_data/Parts")
+            (QDir::homePath() + QStringLiteral("/robot_project/stl_data/Parts"))
         };
         for (const QString &path : candidates) {
             QFileInfo info(path);

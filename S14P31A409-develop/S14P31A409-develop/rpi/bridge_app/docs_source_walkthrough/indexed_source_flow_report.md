@@ -227,7 +227,7 @@ indexed 버전에서 새로 추가된 핵심 빌드 파일은 `rx_packet_pool.c`
 빌드 명령:
 
 ```bash
-cd /home/pi/robot_project/bride_app_codex_indexed
+cd $HOME/robot_project/bride_app_codex_indexed
 make
 ```
 
@@ -1021,7 +1021,7 @@ stop flag
 ## 8. 실행 방법
 
 ```bash
-cd /home/pi/robot_project/bride_app_codex_indexed
+cd $HOME/robot_project/bride_app_codex_indexed
 make
 ./bridge_daemon 1
 ```

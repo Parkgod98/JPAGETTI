@@ -5,12 +5,12 @@ sim_executor_node:
   ros__parameters:
 
     # ── 네트워크 ─────────────────────────────────────────────────────
-    rpi5_ip: "192.168.0.12"
+    rpi5_ip: "127.0.0.1"
     bridge_port: 9000
 
     # ── 영상 파일 경로 ───────────────────────────────────────────────
-    video_path_02: "/home/ubuntu/media/spot_02.mp4"
-    video_path_03: "/home/ubuntu/media/spot_03.mp4"
+    video_path_02: "/path/to/media/spot_02.mp4"
+    video_path_03: "/path/to/media/spot_03.mp4"
 
     # ── robot_id (0-based) ───────────────────────────────────────────
     udp_robot_id_02: 1

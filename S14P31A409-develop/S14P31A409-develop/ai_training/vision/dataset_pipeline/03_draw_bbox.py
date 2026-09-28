@@ -2,11 +2,11 @@ from pathlib import Path
 import cv2
 
 datasets = [
-    r"C:\Users\SSAFY\Desktop\03\datasets\person-Folder- coco_person.coco",
+    r"./datasets/person-Folder- coco_person.coco",
 ]
 
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
-OUTPUT_ROOT = Path(r"C:\Users\SSAFY\Desktop\03\datasets\00_result")
+OUTPUT_ROOT = Path(r"./datasets/00_result")
 
 BBOX_COLOR = (0, 255, 0)   # BGR 기준 초록
 BBOX_THICK = 5

@@ -12,6 +12,6 @@ ros2 launch network_bringup network_bringup.launch.py
 
 | Name | Default | Description |
 | --- | --- | --- |
-| `rpi5_ip` | `192.168.0.13` | BridgeDaemon target IP passed to `pose_path_event_sender` |
+| `rpi5_ip` | `127.0.0.1` | BridgeDaemon target IP passed to `pose_path_event_sender` |
 | `enable_pose_path_event` | `true` | Launch `pose_path_event_sender` |
 | `enable_lidar` | `true` | Launch `lidar_stream_sender` |

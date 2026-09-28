@@ -1,0 +1,4 @@
+/bridge_daemon
+/jetson_cmd_echo
+/bridge_daemon_asan
+/bridge_daemon_tsan

@@ -29,8 +29,8 @@ setup(
     ],
     install_requires=["setuptools"],
     zip_safe=True,
-    maintainer="jetson",
-    maintainer_email="jetson@todo.todo",
+    maintainer="SPOT Get IT contributors",
+    maintainer_email="maintainer@example.com",
     description="SpotMicro RL locomotion runtime package",
     license="TODO",
     extras_require={

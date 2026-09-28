@@ -5,7 +5,7 @@
   <version>0.1.0</version>
   <description>Bringup launch package for network sender nodes.</description>
 
-  <maintainer email="todo@todo.com">todo</maintainer>
+  <maintainer email="maintainer@example.com">SPOT Get IT contributors</maintainer>
   <license>TODO</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

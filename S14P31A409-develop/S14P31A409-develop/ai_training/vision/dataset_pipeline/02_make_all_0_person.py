@@ -2,7 +2,7 @@ from pathlib import Path
 import re
 
 datasets = [
-    r"C:\Users\SSAFY\Desktop\03\datasets\Fall Detection.v2i.yolov11",
+    r"./datasets/Fall Detection.v2i.yolov11",
 ]
 
 DRY_RUN = False  # True: 출력만 / False: 실제 수정

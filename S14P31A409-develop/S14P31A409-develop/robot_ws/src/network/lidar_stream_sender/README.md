@@ -32,7 +32,7 @@ RPi:9000 (BRIDGE_PORT)
 
 | 파라미터 | 타입 | 기본값 | 설명 |
 |----------|------|--------|------|
-| `rpi_ip` | string | `"192.168.0.10"` | RPi BridgeDaemon IP |
+| `rpi_ip` | string | `"127.0.0.1"` | RPi BridgeDaemon IP |
 | `robot_id` | int | `0` | BridgeDaemon robot_id와 일치해야 함 |
 | `max_pts` | int | `9600` | 송신 포인트 수 상한 (D1: 160×60) |
 | `min_dist_m` | float | `0.05` | 유효 거리 하한 (m) |
@@ -56,7 +56,7 @@ ros2 launch lidar_stream_sender lidar_stream_sender.launch.py \
 
 # 직접 실행
 ros2 run lidar_stream_sender lidar_stream_sender_node \
-  --ros-args -p rpi_ip:=192.168.0.10 -p robot_id:=0
+  --ros-args -p rpi_ip:=127.0.0.1 -p robot_id:=0
 ```
 
 ## 의존 패키지

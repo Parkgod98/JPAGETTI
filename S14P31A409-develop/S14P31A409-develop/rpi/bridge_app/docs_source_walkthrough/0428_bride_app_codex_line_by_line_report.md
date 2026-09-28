@@ -1,7 +1,7 @@
 # bride_app_codex 소스 라인별 구현 보고서
 
 작성일: 2026-04-28  
-대상 경로: `/home/pi/robot_project/bride_app_codex`
+대상 경로: `$HOME/robot_project/bride_app_codex`
 
 이 문서는 `bride_app_codex`에 있는 소스/헤더/빌드 파일을 기준으로, 각 파일이 무엇을 하는지, 헤더는 어디서 불러오며 어떤 기능을 쓰는지, 함수는 어떤 기능이고 파라미터가 무엇인지 설명한다. 실행 바이너리 `bridge_daemon`, `bridge_daemon_asan`은 생성 산출물이므로 제외한다.
 

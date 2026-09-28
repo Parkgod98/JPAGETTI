@@ -5,7 +5,7 @@ COCO 2017에서 person 클래스 이미지를 수집합니다.
 라벨 정제는 08_filt_coco.py에서 수행합니다.
 
 출력 구조:
-  C:/Users/SSAFY/Desktop/03/datasets/coco_person/
+  ./datasets/coco_person/
   ├── images/  ← 원본 이미지
   └── labels/  ← 원본 라벨 (person 외 라벨 포함)
 
@@ -20,7 +20,7 @@ import fiftyone as fo
 import fiftyone.zoo as foz
 
 # ── 설정 ───────────────────────────────────────────────────────────────────────
-BASE_DIR    = Path(r"C:\Users\SSAFY\Desktop\03\datasets")
+BASE_DIR    = Path(r"./datasets")
 MAX_SAMPLES = 30000
 COCO_OUT    = BASE_DIR / "coco_person"
 

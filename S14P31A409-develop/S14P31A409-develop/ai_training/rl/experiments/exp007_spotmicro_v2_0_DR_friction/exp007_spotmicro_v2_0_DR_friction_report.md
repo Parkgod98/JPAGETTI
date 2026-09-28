@@ -253,13 +253,13 @@ index 3ae5b49..c54351d 100644
 ## 그래프
 
 ### Tensorboard 학습 곡선
-![tb_training_curves.png](experiments/exp007_spotmicro_v2_0_DR_friction/tb_training_curves.png)
-![tb_individual_rewards.png](experiments/exp007_spotmicro_v2_0_DR_friction/tb_individual_rewards.png)
+![tb_training_curves.png](./tb_training_curves.png)
+![tb_individual_rewards.png](./tb_individual_rewards.png)
 
 ### Diagnostic 결과
-![diagnostic_report.png](experiments/exp007_spotmicro_v2_0_DR_friction/diagnostic_report.png)
-![joint_detail.png](experiments/exp007_spotmicro_v2_0_DR_friction/joint_detail.png)
-![action_smoothness.png](experiments/exp007_spotmicro_v2_0_DR_friction/action_smoothness.png)
+![diagnostic_report.png](./diagnostic_report.png)
+![joint_detail.png](./joint_detail.png)
+![action_smoothness.png](./action_smoothness.png)
 
 
 ---

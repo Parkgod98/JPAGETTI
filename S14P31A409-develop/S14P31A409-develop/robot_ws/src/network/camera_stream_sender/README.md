@@ -20,7 +20,7 @@ JPEG 바이트를 proto.h IMAGE 포맷으로 분할 후 UDP로 RPi BridgeDaemon�
 
 | 파라미터 | 기본값 | 설명 |
 |----------|--------|------|
-| `rpi_ip` | `"192.168.0.13"` | RPi BridgeDaemon IP |
+| `rpi_ip` | `"127.0.0.1"` | RPi BridgeDaemon IP |
 | `robot_id` | `0` | BridgeDaemon robot_id와 일치 |
 | `max_size_bytes` | `200000` | 프레임 크기 상한 (200KB) |
 

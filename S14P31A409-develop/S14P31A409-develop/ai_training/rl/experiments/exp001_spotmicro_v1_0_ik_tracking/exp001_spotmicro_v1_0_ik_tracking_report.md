@@ -204,13 +204,13 @@ V1.0: default IK 동작을 모방하여 보행, 환경에 따른 변수를 RL로
 ## 그래프
 
 ### Tensorboard 학습 곡선
-![tb_training_curves.png](experiments/exp001_spotmicro_v1_0_ik_tracking/tb_training_curves.png)
-![tb_individual_rewards.png](experiments/exp001_spotmicro_v1_0_ik_tracking/tb_individual_rewards.png)
+![tb_training_curves.png](./tb_training_curves.png)
+![tb_individual_rewards.png](./tb_individual_rewards.png)
 
 ### Diagnostic 결과
-![diagnostic_report.png](experiments/exp001_spotmicro_v1_0_ik_tracking/diagnostic_report.png)
-![joint_detail.png](experiments/exp001_spotmicro_v1_0_ik_tracking/joint_detail.png)
-![action_smoothness.png](experiments/exp001_spotmicro_v1_0_ik_tracking/action_smoothness.png)
+![diagnostic_report.png](./diagnostic_report.png)
+![joint_detail.png](./joint_detail.png)
+![action_smoothness.png](./action_smoothness.png)
 
 
 ---

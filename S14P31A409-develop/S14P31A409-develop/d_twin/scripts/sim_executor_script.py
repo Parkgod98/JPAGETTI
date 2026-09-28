@@ -25,6 +25,7 @@ stdin이 정상 동작하므로 키보드 입력 가능.
   v2~v5 / f2~f5   탐지 ON / OFF
   q    종료
 """
+import os
 
 import math
 import select
@@ -43,19 +44,19 @@ from rclpy.qos import QoSProfile, QoSDurabilityPolicy, QoSReliabilityPolicy
 from robot_interfaces.msg import GlobalPathWaypoints
 
 # ─── 설정 (필요 시 수정) ──────────────────────────────────────────────────────
-RPI5_IP        = '192.168.0.13'
+RPI5_IP        = '127.0.0.1'
 BRIDGE_PORT    = 9000
 # Fleet configuration: one real robot and dummy senders
 REAL_ROBOT = 'spot_01'                 # real robot (not simulated here)
 DUMMY_ROBOTS = ['spot_02', 'spot_03', 'spot_04', 'spot_05']
 
 # Video paths per dummy robot (fallback)
-VIDEO_PATH_DEFAULT = '/home/ubuntu/media/spot_02.mp4'
+VIDEO_PATH_DEFAULT = os.path.expanduser('~/media/spot_02.mp4')
 VIDEO_PATHS = {
-    'spot_02': '/home/ubuntu/media/spot_02.mp4',
-    'spot_03': '/home/ubuntu/media/spot_03.mp4',
-    'spot_04': '/home/ubuntu/media/spot_04.mp4',
-    'spot_05': '/home/ubuntu/media/spot_05.mp4',
+    'spot_02': os.path.expanduser('~/media/spot_02.mp4'),
+    'spot_03': os.path.expanduser('~/media/spot_03.mp4'),
+    'spot_04': os.path.expanduser('~/media/spot_04.mp4'),
+    'spot_05': os.path.expanduser('~/media/spot_05.mp4'),
 }
 ROBOT_SPEED    = 0.1    # m/s
 POSE_HZ        = 10.0
